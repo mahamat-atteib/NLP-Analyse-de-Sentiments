@@ -4,6 +4,8 @@ Cette base de données est dérivée des avis d'utilisateurs du célèbre site I
 qui est une vaste source d'informations sur les films, les séries télévisées, et les autres contenus cinématographiques.
 Ce jeu de donnée est aussi téléchargeable sur kaggle avec ce lien : https://www.kaggle.com/datasets/debajyotiroy123/imdb123?select=IMDBDataset.csv
 
+Dans notre cas, nous l'avons importé de notre HDFS.
+
 La colonne "review" a été nettoyée, lemmatisée et tokenizée avant l'entrainement de notre modèle de deep learning (LSTM). 
 
 Il s'agit d'une tâche de classification binaire.
